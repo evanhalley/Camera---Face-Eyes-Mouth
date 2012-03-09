@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >	<FrameLayout
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	    android:layout_weight="4">
+    	<com.emuneee.camerafem.OverlayView
+    	    android:id="@+id/overlayViewCameraFem"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" />
+    	 <SurfaceView
+	        android:id="@+id/surfaceViewCameraFem"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"  />
+    	
+   	</FrameLayout>
+   	<ToggleButton
+        android:id="@+id/toggleButtonCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.50"
+        android:text="ToggleButton" />
+</LinearLayout>
